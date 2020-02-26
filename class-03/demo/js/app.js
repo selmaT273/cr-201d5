@@ -3,14 +3,14 @@ console.log('this is connected');
 
 
 //global variables go here.
-// var userPoints = 0;
+ var userPoints = 0;
 
 
 //Greet the user
-// alert('Hello, and welcome to my guessing game?');
-// var user = prompt('What is your Name?');
-// var userName = user.toLowerCase();
-//console.log(userName);
+alert('Hello, and welcome to my guessing game?');
+var user = prompt('What is your Name?');
+var userName = user.toLowerCase();
+console.log(userName);
 // the user variable 
 // - string
 // - null
@@ -20,9 +20,9 @@ console.log('this is connected');
 //  while(user === '' || user === null)
  //then there is a shorter version of this.
 
-//  while(!user){
-//      user = prompt('What is your name, PLEASE, provide, it, now!');
-//  }
+ while(!user){
+     user = prompt('What is your name, PLEASE, provide, it, now!');
+ }
 
 
  // Control in JS
@@ -34,25 +34,25 @@ console.log('this is connected');
 //  if(condtion){...}else if(condtion2){...}else{....}
 
 // this is the not equals comparison operator
-// if(user !== 'craig'){
-//     console.log(user);
-//     alert('You are not the craig we are looking for.');
-// }
+if(user !== 'craig'){
+    console.log(user);
+    alert('You are not the craig we are looking for.');
+}
 
-// alert('Hello, ' + user + '! it is nice that you stopped by.');
+alert('Hello, ' + user + '! it is nice that you stopped by.');
 
 
-// var answer = prompt('is my favorite food popcorn?', 'Type yes or no.').toLowerCase();
-// console.log(answer);
+var answer = prompt('is my favorite food popcorn?', 'Type yes or no.').toLowerCase();
+console.log(answer);
 
 
 //check to see if user answer is correct 
-// if(answer === 'no' || answer === 'n'){
-//     userPoints +=   200;
-// } else {
-//     alert('You are incorrect.');
-// }
-// alert('you have ' + userPoints + ' points');
+if(answer === 'no' || answer === 'n'){
+    userPoints +=   200;
+} else {
+    alert('You are incorrect.');
+}
+alert('you have ' + userPoints + ' points');
 
 
 
@@ -68,45 +68,45 @@ console.log('this is connected');
 
 // }
 
-// var i = 0;
-// while( i < value){
-//     ....
-//     i++;
-// }
+var i = 0;
+while( i < value){
+    ....
+    i++;
+}
 
-// var foodsILike = ['Chips','Pizza','Chicken','Chocolate'];
-// console.log(foodsILike);
-
-
-// for(var i = 0; i < foodsILike.length; i++){
-//     console.log(foodsILike[i]);
-// }
+var foodsILike = ['Chips','Pizza','Chicken','Chocolate'];
+console.log(foodsILike);
 
 
-// var name;
-// do {
-//     console.log('I am running once, before checking my condition.');
-//     name = prompt('Name?');
-//     console.log('name', name);
-// } while(!name);
-// console.log(name);
+for(var i = 0; i < foodsILike.length; i++){
+    console.log(foodsILike[i]);
+}
+
+
+var name;
+do {
+    console.log('I am running once, before checking my condition.');
+    name = prompt('Name?');
+    console.log('name', name);
+} while(!name);
+console.log(name);
 
 /* 
 Mulitple line comments. 
 do more loooping 
 - continue = means skip the rest of the iterations and go back to the beggining. 
-// */
-// for(var i = 0; i < 10; i++){
-//     if(i === 2){
-//         console.log('Keep going past this number 2.');
-//         continue;
-//     } 
-//     if(i === 4){
-//         console.log('this is now breaking the loops.');
-//         break;
-//     }
-//     console.log('the variable I = ', i);
-// }
+*/
+for(var i = 0; i < 10; i++){
+    if(i === 2){
+        console.log('Keep going past this number 2.');
+        continue;
+    } 
+    if(i === 4){
+        console.log('this is now breaking the loops.');
+        break;
+    }
+    console.log('the variable I = ', i);
+}
 
 // falsy values are :
 // - 0 
